@@ -1,0 +1,42 @@
+{
+  "name": "prop-entries",
+  "version": "1.0.0",
+  "description": "Returns an array of all properties (owned and inherited) of an object.",
+  "keywords": [
+    "object",
+    "own",
+    "inherited",
+    "properties",
+    "entries",
+    "keys",
+    "values",
+    "array"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/prop-entries",
+  "repository": "lamansky/prop-entries",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "own-all": "^1.0.0",
+    "own-entries": "^1.0.0",
+    "sbo": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
